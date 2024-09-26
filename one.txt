@@ -18,4 +18,10 @@ Content
 -mongodb
 --intermediate mongodb
 --api developement
---
+--authentication and authorization
+--error handling
+-middleware
+--session and cookies
+--deployment
+--testing
+--realtime stuff
