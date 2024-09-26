@@ -1,1 +1,21 @@
 backend learn witn sheryians
+
+what is backend?
+
+why backend
+why not frontend alone?
+what do we need?
+what should we make to hit big comp..
+
+Content
+-node js install
+-import and export
+-runthe code
+-node js core usege and understanding - http
+-npm usage
+-express
+-express generator
+-mongodb
+--intermediate mongodb
+--api developement
+--
