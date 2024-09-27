@@ -1,0 +1,8 @@
+time between request and route is call middelware
+
+middelware is a function that work before route
+that menas if you want to show anything before route
+midelware is get used
+
+route chalne se pahle print work on console
+route chalne se pahle hit counter

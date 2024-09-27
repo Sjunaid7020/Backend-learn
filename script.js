@@ -1,9 +1,10 @@
-var a = 12
+var figlet = require("figlet");
 
-var b= 55
-
-var c = 20
-
-var d = 789456123
-
-module.exports = {first:a, second: b}
+figlet("google", function (err, data) {
+  if (err) {
+    console.log("Something went wrong...");
+    console.dir(err);
+    return;
+  }
+  console.log(data);
+});
