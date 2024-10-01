@@ -1,0 +1,47 @@
+1. node vs express, what is real deal? -> node is a main thing with express we can write server code
+    and how server will react that also write with express
+
+2. what is express js?-> it is a package, its help dev with routing and manage server
+
+3. why express js? -> http is difficult to use, express make this easier
+
+4. Routing -> process of making routes ex./profile, /login, /logout, www.facebook.com/profile, etc.
+
+5. Middleware -> its function that runs before evey routs and the code in it execute first
+    app.use(function (res, req, next){
+  console.log('hello from console')
+  next()
+})
+req -> contain data from user
+res -> send data(code) form server to user
+
+6. Request, Response and next ->
+.req contain data form users request like
+location, device info, other things.
+.res contain controls that help server to responce the user request
+.next is just a push so that our request move to the next thing
+which should be executed
+
+7. Route Parameters -> to make any route dynamic you can use :
+at the place where you want to make it dynamic, and to access there value
+use req.params
+ex=>
+/author/books/Atomic
+/author/books/ArtOfWar
+/author/books/WheelOfTime
+/author/books/13ReasonWhy
+
+/author/books/:username
+
+8. Templates -> it convert style of markup ang give html
+
+9. Static Files -> to setup ings,stylsheet, and frountend js
+to setup static files
+1) create a folder called public
+2)create three folder inside it,images,stylesheet,javascripts
+3)configure the express static in index.js file
+4)understand the path
+
+10.HTTP Methods - get and post
+
+11.Error Handling

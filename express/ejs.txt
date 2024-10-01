@@ -1,0 +1,12 @@
+ejs setup step
+1)install ejs with ==> npm i ejs
+
+2)configure ejs
+app.set("view engine","ejs");
+
+3)make views folder
+
+4)make ejs files
+
+5)use render not send -> make sure to write filename that is in views folder
+and dont mention .ejs in render function 
